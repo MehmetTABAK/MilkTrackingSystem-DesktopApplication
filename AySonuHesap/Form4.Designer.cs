@@ -81,7 +81,7 @@
             this.btnNextMonth.Name = "btnNextMonth";
             this.btnNextMonth.Size = new System.Drawing.Size(75, 23);
             this.btnNextMonth.TabIndex = 2;
-            this.btnNextMonth.Text = "Sonraki Ay";
+            this.btnNextMonth.Text = "Sonraki";
             this.btnNextMonth.UseVisualStyleBackColor = true;
             this.btnNextMonth.Click += new System.EventHandler(this.btnNextMonth_Click);
             // 
@@ -102,7 +102,7 @@
             this.btnPrevMonth.Name = "btnPrevMonth";
             this.btnPrevMonth.Size = new System.Drawing.Size(75, 23);
             this.btnPrevMonth.TabIndex = 0;
-            this.btnPrevMonth.Text = "Önceki Ay";
+            this.btnPrevMonth.Text = "Önceki";
             this.btnPrevMonth.UseVisualStyleBackColor = true;
             this.btnPrevMonth.Click += new System.EventHandler(this.btnPrevMonth_Click);
             // 
