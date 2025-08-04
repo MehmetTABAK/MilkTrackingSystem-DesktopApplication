@@ -122,7 +122,7 @@ namespace AySonuHesap
 
         private void LoadTableData()
         {
-            string query = "SELECT Id, AdSoyad FROM Kisiler ORDER BY AdSoyad";
+            string query = "SELECT Id, AdSoyad FROM Kisiler";
             DataTable people = Con.GetData(query);
 
             int startDay, endDay;
